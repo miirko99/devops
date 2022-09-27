@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        //komenta
+        //komentar
         System.out.println("Hello world!");
     }
 }
