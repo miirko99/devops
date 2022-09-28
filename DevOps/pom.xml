@@ -8,7 +8,9 @@
     <artifactId>DevOps</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <maven.compiler.release>7</maven.compiler.release>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
          
     
@@ -29,6 +31,14 @@
                     </archive>
                 </configuration>
             </plugin>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.7.0</version>
+            <configuration>
+                <release>10</release>
+            </configuration>
+        </plugin>
         </plugins>
     </build>
 
